@@ -1,0 +1,199 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: -8px;
+   background: #e0e5ec;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-family: "Cormorant Garamond", serif;
+  font-size:60px;
+}
+h1:before{
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+}
+
+
+
+
+.btn-3d {
+	position: relative;
+	display: inline-block;
+  font-family:cursive;
+  text-decoration: none;
+	font-size: 20px;
+	padding: 20px 60px;
+	color: #FFFFFF;
+	margin: 20px 0 0 -5px ;
+	text-align: center;
+	transition: all .08s linear;
+}
+
+
+li{
+   list-style: none;
+  display: inline-block;
+  
+  }
+
+/* moves button 9px down when clicked */
+.btn-3d:active {
+	top: 9px;
+}
+
+/* Here is the main 3D buttons' colors */
+.btn-3d.red {
+	background-color: #e74c3c;
+	box-shadow: 0 0 0 1px #e74c3c inset,
+	        0 0 0 2px rgba(255,255,255,0.15) inset,
+          0 8px 0 1px rgba(0,0,0,.2),
+				  0 8px 0 0 #c24032;
+}
+
+.btn-3d.red:active {
+box-shadow: none;
+}
+
+.btn-3d.blue {
+	background-color: #6DA2D9;
+	box-shadow: 0 0 0 1px #6DA2D9 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 8px 0 1px rgba(0,0,0,.2),
+				0 8px 0 0 #70a1d4;
+}
+.btn-3d.blue:active {
+	box-shadow: none;
+}
+
+.btn-3d.green {
+	background-color: #82c8a0;
+	box-shadow: 0 0 0 1px #82c8a0 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 8px 0 1px rgba(0,0,0,.2),
+				0 8px 0 0 #7ec29b;
+
+}
+.btn-3d.green:active {
+box-shadow: none;
+}
+
+.btn-3d.purple {
+	background-color: #cb99c5;
+	box-shadow: 0 0 0 1px #cb99c5 inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+				0 8px 0 0 #bd8eb7;
+}
+
+.btn-3d.purple:active {
+	box-shadow: none;
+}
+
+
+.btn-3d.yellow {
+	background-color: #F0D264;
+	box-shadow: 0 0 0 1px #F0D264 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+				0 8px 0 0 #c4ac53;						
+}
+
+.btn-3d.yellow:active {
+	box-shadow: none;
+}
+
+.btn-3d.orange {
+	background-color: #F3772C;
+	box-shadow: 0 0 0 1px #F3772C inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+				0 8px 0 0 #AF5A27;						
+}
+
+.btn-3d.orange:active {
+	box-shadow: none;
+}
+
+form {
+    border:2px; 
+    font-size:40px;
+    font-family:cursive; 
+    color:#462518;
+    }
+
+table,th,td{
+    border:1px solid yellow;
+    border-collapse: collapse;
+    margin:10px；
+    padding:10px;
+    font-family:cursive; 
+    color:#462518;
+    font-size:20px;
+    text-align: center
+}
+
+
+
+
+
+.frame{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 350px;
+  position: relative;
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+   border-radius: 10px;
+}
+
+.btn{
+  height: 35px;
+  width: 35px;
+  border-radius: 3px;
+  background: #e0e5ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+  font-size: 16px;
+  color: rgba(42, 52, 84, 1);
+  text-decoration: none;
+}
+.btn:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
