@@ -1,0 +1,127 @@
+            .btn-3d {
+                position: relative;
+                display: inline-block;
+                font-family:cursive;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 20px 60px;
+                color: #FFFFFF;
+                margin: 20px 0 0 -5px ;
+                text-align: center;
+                transition: all .08s linear;
+            }
+
+
+            li{
+                list-style: none;
+                display: inline-block;
+
+              }
+
+            /* moves button 9px down when clicked */
+            .btn-3d:active {
+                top: 9px;
+            }
+
+            /* Here is the main 3D buttons' colors */
+            .btn-3d.red {
+                background-color: #e74c3c;
+                box-shadow: 0 0 0 1px #e74c3c inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #c24032;
+            }
+
+            .btn-3d.red:active {
+                box-shadow: none;
+            }
+
+            .btn-3d.blue {
+                background-color: #6DA2D9;
+                box-shadow: 0 0 0 1px #6DA2D9 inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #70a1d4;
+            }
+            .btn-3d.blue:active {
+                box-shadow: none;
+            }
+
+            .btn-3d.green {
+                background-color: #82c8a0;
+                box-shadow: 0 0 0 1px #82c8a0 inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #7ec29b;
+
+            }
+            
+            .btn-3d.green:active {
+                box-shadow: none;
+            }
+
+            .btn-3d.purple {
+                background-color: #cb99c5;
+                box-shadow: 0 0 0 1px #cb99c5 inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #bd8eb7;
+            }
+
+            .btn-3d.purple:active {
+                box-shadow: none;
+            }
+
+
+            .btn-3d.yellow {
+                background-color: #F0D264;
+                box-shadow: 0 0 0 1px #F0D264 inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #c4ac53;      
+            }
+
+            .btn-3d.yellow:active {
+                box-shadow: none;
+            }
+
+            .btn-3d.orange {
+                background-color: #F3772C;
+                box-shadow: 0 0 0 1px #F3772C inset,
+                0 0 0 2px rgba(255,255,255,0.15) inset,
+                0 8px 0 1px rgba(0,0,0,.2),
+                0 8px 0 0 #AF5A27;      
+            }
+
+            .btn-3d.orange:active {
+                box-shadow: none;
+            }
+            
+            .topic {
+                display: block;
+                font-family: "Times New Roman";
+                font-size: 32px;
+                color: #ff8c00;
+            }
+            
+            p {
+                font-family: "Times New Roman";
+                font-size: 20px;
+            }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img{
+    height: 400px
+}
+
+body{
+    background-color: #F6F6F6
+}
